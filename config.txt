@@ -1,3 +1,0 @@
-bot_token = OTQwODY4ODQ3MTYwOTQ2NzE4.YgNqZQ.kXoJz0BOGtG_-BrCPCoP9-fXGHU
-command_prefix = ('~')
-tracked = {'!ibm': {'count': 10, 'response': 'I IBMed `{count}` times'}, '!key': {'count': 2, 'response': 'test {count}'}}
