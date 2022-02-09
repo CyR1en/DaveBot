@@ -67,7 +67,7 @@ class ConfigNode(Enum):
     """
     TOKEN = ("bot_token", "replace this with your bot's token")
     PREFIX = ("command_prefix", "('!', '~')")
-    TRACKED = ("tracked", "{\"ibm\": {\"count\": 0, \"response\": \"I've mentioned IBM {} times.\"}}")
+    TRACKED = ("tracked", "{\"ibm\": {\"count\": 0, \"response\": \"I IBMed `{count}` times.\"}}")
 
     def get_key(self):
         return self.value[0]
