@@ -66,8 +66,8 @@ class ConfigNode(Enum):
     and index[2] is the default value of the key when the fil is generated.
     """
     TOKEN = ("bot_token", "replace this with your bot's token")
-    PREFIX = ("command_prefix", "('!', '~')")
-    TRACKED = ("tracked", "{\"ibm\": {\"count\": 0, \"response\": \"I IBMed `{count}` times.\"}}")
+    PREFIX = ("command_prefix", "('~')")
+    TRACKED = ("tracked", "{\"!ibm\": {\"count\": 0, \"response\": \"I IBMed `{count}` times.\"}}")
 
     def get_key(self):
         return self.value[0]
